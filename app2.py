@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the trained pipeline
-model = joblib.load("Data_Aalytics_pathway_Assessment/bank_model.pkl")  # Ensure this file is in the same folder or provide the correct path
+model = joblib.load("bank_model.pkl")  # Ensure this file is in the same folder or provide the correct path
 
 st.title("📊 Term Deposit Subscription Predictor")
 st.write("Will a client subscribe to a term deposit based on their profile?")
